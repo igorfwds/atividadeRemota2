@@ -2,4 +2,4 @@
 Second remote activity from the curricular unity about Logic programming.
 
 
-In This activity, we need to do a questioner that checks whether the number is zero, odd or even.
+In this activity, we need to make a questioner that checks if the number of students in a random class is zero, odd or even.
