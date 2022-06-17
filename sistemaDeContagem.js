@@ -4,8 +4,7 @@ se o numero for zero, escreva 'zero' e o número correspondente
 */
 const rs = require("readline-sync");
 
-let numero = rs.questionInt('Qual numero voce quer aferir? ');
-
+function parImparZero(numero) {
     if (numero % 2 === 0 && numero !== 0 ) {
         console.log(`O numero ${numero} é par.`);
     } else if (numero === 0) {
@@ -13,12 +12,6 @@ let numero = rs.questionInt('Qual numero voce quer aferir? ');
     }else {
         console.log(`O numero ${numero} é ímpar.`);
     }
+}
+parImparZero(rs.questionInt('Qual numero voce quer aferir? '))
 
-
-
-// parImparZero(4)
-// parImparZero(5)
-// parImparZero(0)
-// parImparZero(true)
-// parImparZero('igor')
-// parImparZero(890562987653)
