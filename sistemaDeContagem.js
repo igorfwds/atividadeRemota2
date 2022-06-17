@@ -13,5 +13,5 @@ function parImparZero(numero) {
         console.log(`O numero ${numero} é ímpar.`);
     }
 }
-parImparZero(rs.questionInt('Qual numero voce quer aferir? '))
+parImparZero(rs.questionInt('Quantos alunos têm na sua sala? '))
 
